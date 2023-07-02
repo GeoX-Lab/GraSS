@@ -39,7 +39,7 @@ config:
       DROP_LAST: True
       COPY_DESTINATION_DIR: "/tmp/imagenet1k"
   TRAINER:
-    TRAIN_STEP_NAME: GraSS_train_step # 这里需要修改
+    TRAIN_STEP_NAME: GraSS_train_step
   METERS:
     name: ""
   MODEL:
