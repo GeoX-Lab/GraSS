@@ -1,0 +1,14 @@
+{
+    "potsdam":{
+        "train":["/example/potsdam/vissl_image"," "],
+        "val":["/example/potsdam//val"," "]
+    },
+    "loveda_urban":{
+        "train":["//example/loveda_urban/vissl_image"," "],
+        "val":["/example/loveda_urban/val"," "]
+    },
+    "loveda_rural":{
+        "train":["/example/loveda_rural/vissl_image"," "],
+        "val":["/example/loveda_rural/val"," "]
+    }
+}
