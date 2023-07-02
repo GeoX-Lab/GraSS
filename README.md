@@ -19,11 +19,11 @@ Plese refer to [INSTALL.md](docs/INSTALL.md) for installation and dataset prepar
 
 There are two ways to set data config:
 
-a) Move to [grass_1gpu_resnet_b256.yaml](../configs/config/pretrain/GraSS/grass_1gpu_resnet_b256.yaml) and change DATASET_NAMES to (e.g. Potsdam):
+a) Move to [grass_1gpu_resnet_b256.yaml](configs/config/pretrain/GraSS/grass_1gpu_resnet_b256.yaml) and change DATASET_NAMES to (e.g. Potsdam):
 ```
 DATASET_NAMES: ["loveda_urban"] # change dataset name here
 ```
-and training with this config ([grass_1gpu_resnet_b256.yaml](../configs/config/pretrain/GraSS/grass_1gpu_resnet_b256.yaml))
+and training with this config ([grass_1gpu_resnet_b256.yaml](configs/config/pretrain/GraSS/grass_1gpu_resnet_b256.yaml))
 ```
 python tools/run_distributed_engines.py config=pretrain/GraSS/grass_1gpu_resnet_b256.yaml
 ```
@@ -35,7 +35,7 @@ config.DATA.TRAIN.DATASET_NAMES=["loveda_urban"]
 
 ### 3. Other Config
 
-All settings of FALSE can be set in [grass_1gpu_resnet_b256.yaml](../configs/config/pretrain/GraSS/grass_1gpu_resnet_b256.yaml), including data augumentation, training epoch, optimizer, adn hyperparameters, etc.
+All settings of FALSE can be set in [grass_1gpu_resnet_b256.yaml](configs/config/pretrain/GraSS/grass_1gpu_resnet_b256.yaml), including data augumentation, training epoch, optimizer, adn hyperparameters, etc.
 
 
 ### 4. Training 
