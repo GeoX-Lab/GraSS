@@ -123,7 +123,6 @@ def getHeadMapCut(sample_tmp,max_ratio,loss,features):
     Get LAM
     """
     sample=sample_tmp['input']
-    target=sample_tmp['target']
 
     SampleNum=sample.shape[0]
     SampleHeight=sample.shape[2]

@@ -35,7 +35,7 @@ config.DATA.TRAIN.DATASET_NAMES=["loveda_urban"]
 
 ### 3. Other Config
 
-All settings of FALSE can be set in [grass_1gpu_resnet_b256.yaml](configs/config/pretrain/GraSS/grass_1gpu_resnet_b256.yaml), including data augumentation, training epoch, optimizer, adn hyperparameters, etc.
+All settings of GraSS can be set in [grass_1gpu_resnet_b256.yaml](configs/config/pretrain/GraSS/grass_1gpu_resnet_b256.yaml), including data augumentation, training epoch, optimizer, adn hyperparameters, etc.
 
 
 ### 4. Training 
