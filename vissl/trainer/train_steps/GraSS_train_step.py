@@ -1,16 +1,6 @@
-"""
-这是DGX上用于训练版本的可视化代码
-
-
-230616 这个就是我们用来
-"""
 import numpy as np
 import cv2
 from skimage import measure,morphology
-import torchvision.transforms as pth_transforms
-import torch.nn.functional as nnf
-import matplotlib.pyplot as plt
-# -----------------------
 
 import contextlib
 from types import SimpleNamespace

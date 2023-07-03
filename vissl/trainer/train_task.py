@@ -730,7 +730,7 @@ class SelfSupervisionTask(ClassificationTask):
             vissl_state_dict["train_phase_idx"] + 1 if vissl_state_dict else 0
         )
 
-        # 准备数据集
+        
         self.datasets, self.data_and_label_keys = self.build_datasets(
             current_train_phase_idx
         )
@@ -740,7 +740,7 @@ class SelfSupervisionTask(ClassificationTask):
             self.datasets["train"].set_classy_state(
                 vissl_state_dict.get("train_dataset_iterator")
             )
-        # 构建数据下载
+        
         self.dataloaders = self.build_dataloaders(
             pin_memory=pin_memory, current_train_phase_idx=current_train_phase_idx
         )
