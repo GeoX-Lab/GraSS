@@ -72,8 +72,8 @@ _RANDOM_INTERPOLATION = (Image.BILINEAR, Image.BICUBIC)
 
 
 # Modification/Addition
-@register_transform("RandAugment")
-class RandAugment(ClassyTransform):
+@register_transform("RandAugment_src")
+class RandAugment_src(ClassyTransform):
     """
     Create a RandAugment transform.
     :param magnitude: integer magnitude of rand augment

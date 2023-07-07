@@ -18,7 +18,7 @@ conda activate grass_env
 ```
 2. Install PyTorch
 ```
-conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch
+conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 Or Visit [Pytorch](https://pytorch.org/) to install
 

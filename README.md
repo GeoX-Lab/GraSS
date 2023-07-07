@@ -4,7 +4,7 @@
 
 This is a PyTorch implementation of [GraSS](https://arxiv.org/abs/2306.15868)
 
-<img src="GraSS.png" width="900"/>
+<img src="docs/GraSS.png" width="900"/>
 
 ## Abstract
 

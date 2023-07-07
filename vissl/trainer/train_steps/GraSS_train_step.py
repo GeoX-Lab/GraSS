@@ -157,14 +157,14 @@ def getHeadMapCut(sample_tmp,max_ratio,loss,features):
 
     return sample
 
-def TrainInsectionOperation(task,sample_tmp,loss,features):
+def TrainInsectionOperation(sample_tmp,loss,features):
     """
     contrastive loss guided sampling
     """
 
     control_ratio=0.5
    
-    sample_GraSS=getHeadMapCut(task,sample_tmp,control_ratio,loss,features)
+    sample_GraSS=getHeadMapCut(sample_tmp,control_ratio,loss,features)
 
     return sample_GraSS 
 
@@ -237,9 +237,9 @@ def GraSS_train_step(task):
         
         local_loss = task.loss(model_output, sample['target'])
         loss_guide = local_loss.clone() 
-        sample_tmp=sample 
+        sample_tmp=sample
 
-        sample_GraSS=TrainInsectionOperation(task,sample_tmp,loss_guide,features) 
+        sample_GraSS=TrainInsectionOperation(sample_tmp,loss_guide,features) 
        
         sample['input']=sample_GraSS
     
