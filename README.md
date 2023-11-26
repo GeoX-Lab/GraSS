@@ -2,7 +2,7 @@
 
 ## GraSS: Contrastive Learning with Gradient Guided Sampling Strategy for Remote Sensing Image Semantic Segmentation
 
-This is a PyTorch implementation of [GraSS](https://arxiv.org/abs/2306.15868) which has been published in IEEE Trans. on Geoscience and Remote Sensing.
+This is a PyTorch implementation of [GraSS](https://arxiv.org/abs/2306.15868) which has been published in [IEEE Trans. on Geoscience and Remote Sensing](https://ieeexplore.ieee.org/document/10328629).
 
 <img src="docs/GraSS.png" width="900"/>
 
