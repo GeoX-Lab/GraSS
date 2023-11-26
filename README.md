@@ -58,7 +58,23 @@ Bibtex
 @article{grass2023,
     title={GraSS: Contrastive Learning with Gradient Guided Sampling Strategy for Remote Sensing Image Semantic Segmentation},
     author={Zhang, Zhaoyang and Ren, Zhen and Tao, Chao and Zhang, Yunsheng and Peng, Chengli and Li, Haifeng},
-    journal={arXiv:2306.15868}, 
-    year={2023}
+    journal={IEEE Transactions on Geoscience and Remote Sensing},
+    DOI = {10.1109/TGRS.2023.3336285},
+    year={2023},
+    type = {Journal Article}
 }
+
+Endnote
+%0 Journal Article
+%A Zhang, Zhaoyang
+%A Ren, Zhen
+%A Tao, Chao
+%A Zhang, Yunsheng
+%A Peng, Chengli
+%A Li, Haifeng
+%D 2023
+%T GraSS: Contrastive Learning with Gradient Guided Sampling Strategy for Remote Sensing Image Semantic Segmentation
+%B IEEE Transactions on Geoscience and Remote Sensing
+%R DOI:10.1109/TGRS.2023.3336285
+%! GraSS: Contrastive Learning with Gradient Guided Sampling Strategy for Remote Sensing Image Semantic Segmentation
 ```
