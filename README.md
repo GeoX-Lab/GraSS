@@ -19,7 +19,7 @@ Plese refer to [INSTALL.md](docs/INSTALL.md) for installation and dataset prepar
 
 There are two ways to set data config:
 
-a) Move to [grass_1gpu_resnet_b256.yaml](configs/config/pretrain/GraSS/grass_1gpu_resnet_b256.yaml) and change DATASET_NAMES to (e.g. Potsdam):
+a) Move to [grass_1gpu_resnet_b256.yaml](configs/config/pretrain/GraSS/grass_1gpu_resnet_b256.yaml) and change DATASET_NAMES to (e.g. LoveDA Urban):
 ```
 DATASET_NAMES: ["loveda_urban"] # change dataset name here
 ```
