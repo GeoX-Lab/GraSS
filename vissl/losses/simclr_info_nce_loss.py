@@ -81,7 +81,7 @@ class SimclrInfoNCECriterion(nn.Module):
 
         self.use_gpu = get_cuda_device_index() > -1
         self.temperature = temperature
-        self.num_pos = 2 # 估计修改一下这里
+        self.num_pos = 2
         self.buffer_params = buffer_params
         self.criterion = nn.CrossEntropyLoss()
         self.dist_rank = get_rank()
