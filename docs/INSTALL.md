@@ -30,9 +30,10 @@ cd apex
 python3 setup.py install
 ```
 
-4. Install opencv
+4. Install opencv and scikit-image
 ```
 pip install opencv-python
+pip install scikit-image
 ```
 
 4. Install GraSS
