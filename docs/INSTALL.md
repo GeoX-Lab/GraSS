@@ -26,6 +26,7 @@ Or Visit [Pytorch](https://pytorch.org/) to install
 
 3. Install Apex(optional)
 ```
+pip install packaging
 git clone --recursive https://www.github.com/NVIDIA/apex
 cd apex
 python3 setup.py install
