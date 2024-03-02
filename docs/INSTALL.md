@@ -7,7 +7,8 @@
 * PyTorch>=1.4
 * torchvision (matching PyTorch install)
 * CUDA (must be a version supported by the pytorch version)
-* OpenCV (required)
+* OpenCV
+* scikit-image
 
 ## Installing GraSS with VISSL
 
