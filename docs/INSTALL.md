@@ -9,6 +9,7 @@
 * CUDA (must be a version supported by the pytorch version)
 * OpenCV
 * scikit-image
+* importlib-resources=5.12.0
 
 ## Installing GraSS with VISSL
 
@@ -30,10 +31,11 @@ cd apex
 python3 setup.py install
 ```
 
-4. Install opencv and scikit-image
+4. Install opencv, scikit-image and importlib-resources
 ```
 pip install opencv-python
 pip install scikit-image
+pip install importlib-resources==5.12.0
 ```
 
 4. Install GraSS
