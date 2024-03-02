@@ -7,7 +7,7 @@
 * PyTorch>=1.4
 * torchvision (matching PyTorch install)
 * CUDA (must be a version supported by the pytorch version)
-* OpenCV (optional)
+* OpenCV (required)
 
 ## Installing GraSS with VISSL
 
@@ -28,6 +28,12 @@ git clone --recursive https://www.github.com/NVIDIA/apex
 cd apex
 python3 setup.py install
 ```
+
+4. Install opencv
+```
+pip install opencv-python
+```
+
 4. Install GraSS
 
 Download GraSS source code and switch to the source path for installation:
