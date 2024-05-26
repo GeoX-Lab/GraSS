@@ -47,7 +47,7 @@ Download GraSS source code and switch to the source path for installation:
 git clone --recursive https://github.com/GeoX-Lab/GraSS.git
 cd GraSS
 pip install --progress-bar off -r requirements.txt
-pip install classy-vision@https://github.com/facebookresearch/ClassyVision/tarball/master
+pip install classy-vision@https://github.com/Vaczzy/ClassyVision/tarball/master
 pip install -e .[dev]
 ```
 
